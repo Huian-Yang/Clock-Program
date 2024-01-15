@@ -15,6 +15,7 @@ def update():
                                 #recursive function, calling a function in a function
 
 window = Tk()
+window.title("Clock Program")
 
 time_label = Label(window,font=("Arial",50),fg="green",bg="black")
 time_label.pack()
